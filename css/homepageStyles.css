@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*== HOME PAGE ONLY STYLING/POSITIONING ==*/
+#mainContent #leftBodyContainer {
+	width:297px;
+}
+#mainContent #middleBodyContainer {
+	width:265px;
+}
+#mainContent #rightBodyContainer {
+	width:415px;
+}
+#mainContent #middleBodyContainer img, #mainContent #leftBodyContainer img {
+	float:left;
+	clear:left;
+}
+#leftBodyContainer, #middleBodyContainer, #rightBodyContainer {
+	margin-top:5px;
+	overflow:hidden;
+	float:left;
+}
+#leftBodyContainer, #middleBodyContainer {
+	margin-right:6px;
+}
+#mainContent #leftBodyContainer #urgentInfo {
+	width:292px;
+	height:145px;
+	border:#F1992D 2px solid;
+	margin-bottom:5px;
+}
+#mainContent #leftBodyContainer #blogPost {
+	width:292px;
+	height:398px;
+	border:#F1992D 2px solid;
+	overflow:scroll;
+}
+#mainContent #middleBodyContainer #adoptInfo {
+	height:552px;
+	border:#F1992D 2px solid;
+}
+#mainContent #eventCal {
+	width:410px;
+	height:224px;
+	border:#F1992D 2px solid;
+	margin-bottom:5px;
+}
+#mainContent #specialNeedsRabbits {
+	width:410px;
+	height:90px;
+	border:#F1992D 2px solid;
+	margin-bottom:5px;
+}
+#mainContent #featRabbit {
+	width:410px;
+	height:220px;
+	border:#f1992D 2px solid;
+}
+#mainContent #leftBodyContainer #urgentInfo, #mainContent #middleBodyContainer #adoptInfo, #mainContent #rightBodyContainer #featRabbit {
+	overflow:hidden;
+}
+#mainContent #leftBodyContainer #urgentInfo p, #mainContent #leftBodyContainer #blogPost p, #mainContent #middleBodyContainer #adoptInfo p, #mainContent #rightBodyContainer #featRabbit p, #mainContent #rightBodyContainer #specialNeedsRabbits p {
+	font-size:.7em;
+	margin:2px;
+}
+#mainContent #middleBodyContainer #adoptInfo p {
+	margin-bottom:10px;
+}
+#mainContent #leftBodyContainer #urgentInfo h2, #mainContent #leftBodyContainer #blogPost h2, #mainContent #middleBodyContainer #adoptInfo h2, #mainContent #rightBodyContainer #featRabbit h2, #mainContent #rightBodyContainer #eventCal h2, #mainContent #rightBodyContainer #specialNeedsRabbits h2  {
+	font-size:.9em;
+	font-weight:bold;
+}
+#mainContent #leftBodyContainer #urgentInfo h2 {
+	color:#F00;
+	padding:2px;
+}
+#mainContent #leftBodyContainer #blogPost h2, #mainContent #middleBodyContainer #adoptInfo h2, #mainContent #rightBodyContainer #featRabbit h2, #mainContent #rightBodyContainer #eventCal h2 {
+	background:#F1992D;
+	padding:3px;
+	margin:0;
+}
+#mainContent #rightBodyContainer #specialNeedsRabbits h2 {
+	background:#F00;
+	color:#FFF;
+	padding:2px;
+}
+#flash {
+	position:absolute;
+	bottom:210px;
+}
